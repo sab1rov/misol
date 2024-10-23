@@ -1,0 +1,393 @@
+@media screen and (max-width:1306px) {
+  .crypto-item {
+    max-width: 320px;
+  }
+
+  .invest:first-child {
+    max-width: 200px;
+
+  }
+}
+
+@media screen and (max-width:1275px) {
+  .invest p {
+    font-size: 14px;
+  }
+
+  .invest h1 {
+    font-size: 18px;
+  }
+
+  .invest img {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width:1205px) {
+  .crypto-item {
+    max-width: 300px;
+  }
+
+  .crypto-item p {
+    font-size: 16px;
+  }
+
+  .crapp-par {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:1015px) {
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .parag {
+    font-size: 13px;
+  }
+
+  .mining-input {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:980px) {
+  .header i {
+    display: block;
+  }
+
+  .header nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width:860px) {
+  .mining p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .item h1 {
+    font-size: 30px;
+  }
+
+  .item p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .statics {
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .parag {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .hero-image {
+    display: none;
+    width: 2px;
+    height: 1px;
+  }
+
+  .item i {
+    width: 60px;
+    height: 50px;
+    font-size: 25px;
+  }
+
+  .cypto {
+    justify-content: center;
+  }
+
+  .logo-footer {
+    display: flex !important;
+  }
+
+  .calculate {
+    padding: 20px;
+  }
+
+  .input-value p {
+    font-size: 15px;
+  }
+
+  .input {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .box-container {
+    flex-direction: column;
+  }
+
+  .hero-content h1 {
+    font-size: 40px;
+    width: 370px;
+    line-height: 45px;
+  }
+
+  .parag {
+    width: 300px;
+  }
+
+  .save-badge {
+    max-width: 320px;
+    gap: 20px;
+  }
+
+  .center-content p {
+    font-size: 12px;
+  }
+
+  .crypto-text {
+    font-size: 18px;
+  }
+
+  .mining-item {
+    font-size: 18px;
+  }
+
+  .iinput {
+    margin: 15px 0;
+  }
+
+  .mining {
+    padding: 20px;
+  }
+
+  .chart-list h1 {
+    line-height: 30px;
+  }
+
+  .hero {
+    margin-bottom: 150px;
+  }
+
+  .footer-container a {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 5px 0;
+  }
+
+  .payment-box h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .footer {
+    padding-bottom: 20px;
+  }
+
+  .copy p {
+    width: 150px;
+  }
+
+  .social i {
+    padding: 0 5px;
+  }
+
+  .mining p {
+    font-size: 12px;
+  }
+
+  .calculate {
+    max-width: 400px;
+  }
+
+  .invest {
+    flex-direction: column;
+  }
+
+  .invest2 {
+    flex-direction: column-reverse;
+  }
+
+  .mining {
+    flex-direction: column;
+    align-content: flex-start;
+  }
+
+  .mining button {
+    margin: 10px 0;
+  }
+
+  .copy p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .footer-end i {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .statics {
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width:405px) {
+  .hero-content h1 {
+    font-size: 35px;
+  }
+
+  .center-content h1 {
+    font-size: 20px;
+  }
+
+  .center-content p {
+    font-size: 12px;
+  }
+
+  .input {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .input select {
+    padding: 10px 0;
+  }
+
+  .hero-content h1 {
+    width: 320px;
+  }
+
+  .input-value p {
+    font-size: 13px;
+    line-height: 20px;
+    margin: 10px 0;
+  }
+
+  .input-value h3 {
+    margin-top: 40px;
+  }
+
+  .crypto-text {
+    font-size: 15px;
+  }
+
+  .innput {
+    width: 200px;
+    padding: 10px 0;
+  }
+
+  .crypto-item {
+    padding: 14px;
+  }
+
+  .crypto-item p {
+    line-height: 20px;
+    margin: 15px;
+    font-size: 13px;
+  }
+
+  .mining-item {
+    font-size: 15px;
+  }
+
+  .first,
+  .second {
+    flex-direction: column;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+
+  }
+
+  .logo-footer {
+    display: flex;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .hero-content h1 {
+    font-size: 30px;
+    width: 270px;
+  }
+
+  .save-badge {
+    gap: 5px;
+    width: 270px;
+  }
+
+  .parag {
+    width: 200px;
+  }
+
+  .button {
+    width: 140px;
+    font-size: 11px;
+  }
+
+  .center-content h1 {
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .center-content p {
+    font-size: 13px;
+    text-align: left;
+  }
+
+  .mining-item {
+    font-size: 14px;
+  }
+
+  .mining p {
+    width: 150px;
+  }
+
+  .foot-end {
+    align-items: center;
+  }
+
+  .input-value h1 {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .input-value h3 {
+    font-size: 14px;
+  }
+
+  .copy p {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .social {
+    display: flex;
+    gap: 2px;
+  }
+
+  .save-badge p {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    color: white;
+    background-color: #0D0D2B;
+    font-family: Rubik;
+    max-width: 85%;
+    margin: auto;
+}
+
+body {
+    font-family: rubik;
+    color: white;
+    background-color: #0D0D2B;
+}
+
+p {
+    color: #9b9b9b;
+}
+
+.container {
+    margin: 0 auto;
+    padding-bottom: 110px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-link {
+    transition: all .3s ease-in-out;
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    transition: all .3s ease-in-out;
+}
+
+.button {
+    background-color: #3671E9;
+    color: white;
+    padding: 10px;
+    border-radius: 32px;
+    text-decoration: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 152px;
+    height: 45px;
+    border: 2px solid #3671E9;
+
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 2px solid #3671E9;
+
+    i {
+        background: #3671E9;
+        color: white;
+    }
+
+    p {
+        color: #3671E9;
+    }
+
+}
+
+.parag {
+    margin: 40px 0;
+}
+
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 250px 0;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 60px;
+}
+
+.save-badge {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 5px 5px;
+    width: 400px;
+    border-radius: 32px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.save {
+    padding: 3px 15px;
+    color: black;
+    background-color: #fff;
+    border-radius: 32px;
+}
+
+.hero-image {
+    max-width: 40%;
+}
+
+.button1 {
+    background-color: #3671E9;
+    border: none;
+    border-radius: 32px;
+    padding: 12px 25px;
+    color: #fff;
+    border: 2px solid #3671E9;
+
+}
+
+.button1:hover {
+    border: 2px solid #3671E9;
+    background-color: transparent;
+    color: #3671E9;
+}
+
+.button p {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.header i {
+    display: none;
+    cursor: pointer;
+
+}
+
+.static {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px 0;
+}
+
+.statics {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.item i {
+    font-size: 35px;
+    background-color: rgb(26, 26, 26);
+    border-radius: 40px;
+    color: #3671E9;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart-list h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.crapp {
+    margin: 100px 0;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crapp h1 {
+    font-size: 40px;
+}
+
+.crapp-par {
+    margin: 25px 0;
+}
+
+.learn {
+    background-color: #3671E9;
+    padding: 12px 20px;
+    border: none;
+    color: #fff;
+    border-radius: 32px;
+    border: 2px solid #3671E9;
+
+}
+
+.learn:hover {
+    border: 2px solid #3671E9;
+    background-color: transparent;
+    color: #3671E9;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Subscribe {
+    border: 2px solid #fff;
+
+}
+
+.Subscribe:hover {
+    border: 2px solid #fff;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.center-content p {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.calculate {
+    display: flex;
+    flex-direction: column;
+    max-width: 950px;
+    background-color: #fff;
+    padding: 50px 100px;
+    border-radius: 10px;
+    transform: translateY(30%);
+}
+
+.input {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.mining-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    outline: none;
+}
+
+.innput {
+    padding: 5px;
+    width: 260px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9b9b9b;
+}
+
+.input select {
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9b9b9b;
+}
+
+.input-value h3 {
+    color: #3671E9;
+    margin-top: 70px;
+    font-size: 16px;
+}
+
+.input-value h1 {
+    color: black;
+    margin: 5px 0;
+}
+
+.input-value p {
+    text-align: left;
+}
+
+.crypto {
+    padding-top: 70px;
+}
+
+.crypto-text {
+    text-align: center;
+    margin: 150px 0px 10px 0;
+}
+
+.cypto {
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 60px auto;
+    flex-wrap: wrap;
+}
+
+.crypto-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 350px;
+}
+
+.crypto-item:hover {
+    transition: all .5s;
+    background-color: rgba(43, 7, 110, 1);
+
+    h1 {
+        color: #fff;
+    }
+
+}
+
+.button12 p {
+    display: none;
+}
+
+.button12 {
+    margin: 5px 0;
+}
+
+.button12:hover {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #3671E9 !important;
+    gap: 10px;
+    max-width: 200px;
+    display: flex;
+    transition: all .9s;
+    padding: 5px 15px;
+    border-radius: 32px;
+
+    p {
+        transition: all 3s;
+        display: block;
+        color: white;
+        margin: 0;
+    }
+
+    i {
+        width: 30px;
+        height: 30px;
+        color: #3671E9;
+        border: none;
+        background-color: #fff;
+    }
+}
+
+.head-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    gap: 5px;
+    margin: 20px 0;
+}
+
+p {
+    line-height: 30px;
+}
+
+li a:hover {
+    opacity: 0.3;
+}
+
+.head-text h1 {
+    color: #0D0D2B;
+}
+
+.head-text h3 {
+    color: rgba(189, 189, 189, 1);
+}
+
+.crypto-logo {
+    margin: 30px 0;
+}
+
+.crypto-item p {
+    margin: 25px 0;
+}
+
+.item2 h1 {
+    color: white;
+}
+
+.crypto-item i {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid #bbbbbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3671E9;
+    font-size: 16px;
+}
+
+.crypto-item .button12 {
+    background-color: transparent;
+    border: none;
+}
+
+.button i {
+    width: 30px;
+    height: 30px;
+    border-radius: 32px;
+    background-color: #fff;
+    color: #3671E9;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button22 {
+    margin: auto;
+}
+
+
+.invest {
+    display: flex;
+    align-items: center;
+    margin: 80px 0;
+    gap: 90px;
+}
+
+.invest p {
+    margin: 20px 0;
+}
+
+.mining {
+    display: flex;
+    padding: 48px;
+    background-color: #3671E9;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.mining p {
+    margin-top: 20px;
+}
+
+.iinput::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.mining button {
+    border-radius: 32px;
+    background-color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 700;
+    border: 2px solid #fff;
+}
+
+.mining-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    padding-bottom: 60px;
+}
+
+footer a {
+    margin: 8px 0;
+    color: #9b9b9b;
+    text-decoration: none;
+}
+
+.footer section {
+    display: flex;
+    flex-direction: column;
+}
+
+.static {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.payment-box {
+    max-width: 300px;
+}
+
+.payment {
+    margin: 10px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.payment i {
+    font-size: 45px;
+}
+
+.payment i:hover {
+    color: #3671E9;
+}
+
+.foot-end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container {
+    margin: 30px 0;
+}
+
+.social i {
+    padding: 0 15px;
+}
+
+.social i:hover {
+    color: #3671E9;
+}
+
+.footer-container a:hover {
+    opacity: 0.5;
+}
+
+.invests {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first,
+.second {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+.center-box img {
+    width: 90%;
+}
+
+.logo-footer img {
+    width: 50px;
+}
